@@ -1,0 +1,3 @@
+displayName = Scorched Earth V2
+author = Clueless-Skywatcher
+version = 0.1

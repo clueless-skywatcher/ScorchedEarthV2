@@ -1,0 +1,110 @@
+Items: {
+	SetBonuses: {
+		JellyArmor: +15% movement speed
+		ArgentArmor:
+			'''
+			+30% movement speed
+			Emits light
+			'''
+		LinariteArmor:
+			'''
+			+30% movement speed
+			+30% life regeneration
+			Gain slowfall            
+			'''
+		SanguinusArmor:
+			'''
+			30% lifesteal
+			20% melee and ranged critical hit chance
+			+25% melee and ranged damage
+			Sanguinus Iratus: Two blobs of blood start revolving around you
+			Press <Right Click> to fire them towards random enemies in a radius,
+			dealing flat 100 damage to each enemy
+			You gain 100 health each time a blob damages an enemy
+			The blobs reappear after 10 seconds
+			'''
+	}
+
+	JellySword: {
+		DisplayName: Jelly Sword
+		Tooltip: A sword made of solidified jelly. Good for beginners
+	}
+
+	JellyHamaxe: {
+		DisplayName: Jelly Hamaxe
+		Tooltip: A sturdy jelly hamaxe
+	}
+
+	JellyPickaxe: {
+		DisplayName: Jelly Pickaxe
+		Tooltip: A blue pickaxe made from jellies. Decent picking power, but not suited for combat
+	}
+
+	JellyChestplate: {
+		DisplayName: Jelly Chestplate
+		Tooltip: Jelly absorbs shock, providing a decent defense
+	}
+
+	JellyPants: {
+		DisplayName: Jelly Pants
+		Tooltip: +7% movement speed
+	}
+
+	JellyHelmet: {
+		DisplayName: Jelly Helmet
+		Tooltip: +10% melee damage
+	}
+
+	ArgentGreaves: {
+		Tooltip: +10% movement speed
+		DisplayName: Argent Greaves
+	}
+
+	ArgentCuirass: {
+		Tooltip: Guaranteed to make you a knight in shining armor
+		DisplayName: Argent Cuirass
+	}
+
+	ArgentArmet: {
+		Tooltip: You can't go wrong with a badass helmet
+		DisplayName: Argent Armet
+	}
+
+	LinariteBarbute: {
+		DisplayName: Linarite Barbute
+		Tooltip: +5% critical chance
+	}
+
+	LinariteJambeaux: {
+		DisplayName: Linarite Jambeaux
+		Tooltip: Shining with... dust?
+	}
+
+	LinaritePlatemail: {
+		DisplayName: Linarite Platemail
+		Tooltip: Shining with the brightest of blue
+	}
+
+	SanguinusCornutus: {
+		DisplayName: Sanguinus Cornutus
+		Tooltip:
+			'''
+			 15% melee and ranged critical hit chance
+			 +100 health
+			'''
+	}
+
+	SanguinusOcreae: {
+		DisplayName: Sanguinus Ocreae
+		Tooltip:
+			'''
+			 +20% movement speed
+			 +80% life regeneration
+			'''
+	}
+
+	SanguinusOculus: {
+		DisplayName: Sanguinus Oculus
+		Tooltip: "10% lifesteal"
+	}
+}

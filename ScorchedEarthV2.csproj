@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Import tModLoader mod properties -->
+	<Import Project="..\tModLoader.targets" />
+
+	<!-- General -->
+	<PropertyGroup>
+		
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="Content\Items\Armor\ArgentArmor\ArgentArmet.png" />
+	  <None Remove="Content\Items\Armor\ArgentArmor\ArgentArmet_Head.png" />
+	  <None Remove="Content\Items\Armor\ArgentArmor\ArgentCuirass.png" />
+	  <None Remove="Content\Items\Armor\ArgentArmor\ArgentCuirass_Body.png" />
+	  <None Remove="Content\Items\Armor\ArgentArmor\ArgentGreaves.png" />
+	  <None Remove="Content\Items\Armor\ArgentArmor\ArgentGreaves_Legs.png" />
+	  <None Remove="Content\Items\Armor\JellyArmor\JellyChestplate.png" />
+	  <None Remove="Content\Items\Armor\JellyArmor\JellyChestplate_Body.png" />
+	  <None Remove="Content\Items\Armor\JellyArmor\JellyHelmet.png" />
+	  <None Remove="Content\Items\Armor\JellyArmor\JellyHelmet_Head.png" />
+	  <None Remove="Content\Items\Armor\JellyArmor\JellyPants.png" />
+	  <None Remove="Content\Items\Armor\JellyArmor\JellyPants_Legs.png" />
+	  <None Remove="Content\Items\Weapons\Hamaxes\JellyHamaxe.png" />
+	  <None Remove="Content\Items\Weapons\Pickaxes\JellyPickaxe.png" />
+	  <None Remove="Content\Items\Weapons\Swords\JellySword.png" />
+	</ItemGroup>
+
+	<!-- References -->
+	<ItemGroup>
+	  <Folder Include="Common\" />
+	  <Folder Include="Assets\" />
+	  <Folder Include="Content\Items\Weapons\Axes\" />
+	  <Folder Include="Content\Items\Weapons\Hammers\" />
+	</ItemGroup>
+
+</Project>
