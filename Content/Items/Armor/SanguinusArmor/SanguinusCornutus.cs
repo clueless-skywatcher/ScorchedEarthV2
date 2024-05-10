@@ -1,9 +1,10 @@
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
-using Terraria.Localization;
 using Terraria.GameContent.Creative;
 using Microsoft.Xna.Framework;
+using Terraria.Localization;
+using ScorchedEarthV2.System.Players;
 
 namespace ScorchedEarthV2.Content.Items.Armor.SanguinusArmor
 {
@@ -17,7 +18,7 @@ namespace ScorchedEarthV2.Content.Items.Armor.SanguinusArmor
 
             Item.rare = ItemRarityID.Purple;
 
-            Item.defense = 24;
+            Item.defense = 11;
 
             ArmorIDs.Head.Sets.DrawFullHair[Item.headSlot] = false;
         }
@@ -30,15 +31,15 @@ namespace ScorchedEarthV2.Content.Items.Armor.SanguinusArmor
 
         public override void UpdateArmorSet(Player player)
         {
-            player.lifeSteal = 0.30f;
-
-            player.GetCritChance(DamageClass.Melee) = 20;
-            player.GetCritChance(DamageClass.Ranged) = 20;
-
-            player.GetDamage(DamageClass.Melee) += 0.25f;
-            player.GetDamage(DamageClass.Ranged) += 0.25f;
-            
             player.setBonus = Language.GetTextValue("Mods.ScorchedEarthV2.Items.SetBonuses.SanguinusArmor");
+        
+            player.GetCritChance(DamageClass.Melee) = 20;
+            player.GetDamage(DamageClass.Melee) += 0.25f;
+
+            player.maxMinions += 2;
+
+            SanguinusPlayer modPlayer = player.GetModPlayer<SanguinusPlayer>();
+            modPlayer.sanguinusIratus = true;
         }
 
         public override void AddRecipes()

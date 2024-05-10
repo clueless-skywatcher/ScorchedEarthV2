@@ -14,14 +14,16 @@ Items: {
 			'''
 		SanguinusArmor:
 			'''
-			30% lifesteal
-			20% melee and ranged critical hit chance
-			+25% melee and ranged damage
-			Sanguinus Iratus: Two blobs of blood start revolving around you
-			Press <Right Click> to fire them towards random enemies in a radius,
-			dealing flat 100 damage to each enemy
-			You gain 100 health each time a blob damages an enemy
-			The blobs reappear after 10 seconds
+			30% lifesteal on melee damage
+			20% melee critical hit chance
+			+25% melee damage
+			+2 max minions
+
+			Sanguinus Iratus (Subject to change): A pair of glowing blood blobs start orbiting you
+			Press <Armor Ability> to fire them towards enemies
+			Each blob homes in to the enemy and deals 100 damage, exploding upon impact
+			You restore 100 health each time a blob damages an enemy
+			The blobs reappear after 5 seconds
 			'''
 	}
 
@@ -89,8 +91,8 @@ Items: {
 		DisplayName: Sanguinus Cornutus
 		Tooltip:
 			'''
-			 15% melee and ranged critical hit chance
-			 +100 health
+			15% melee and ranged critical hit chance
+			+100 health
 			'''
 	}
 
@@ -98,13 +100,32 @@ Items: {
 		DisplayName: Sanguinus Ocreae
 		Tooltip:
 			'''
-			 +20% movement speed
-			 +80% life regeneration
+			+20% movement speed
+			+80% life regeneration
 			'''
 	}
 
 	SanguinusOculus: {
 		DisplayName: Sanguinus Oculus
-		Tooltip: "10% lifesteal"
+		Tooltip: 10% lifesteal
 	}
 }
+
+Buffs: {
+	SanguinusIratusBuff: {
+		DisplayName: Sanguinus Iratus
+		Description: An irresistible urge to drink gallons of blood...
+	}
+
+	SanguinusIratusCooldown: {
+		DisplayName: Sanguinus Iratus Cooldown
+		Description: Mods.ScorchedEarthV2.Buffs.SanguinusIratusCooldown.Description
+	}
+}
+
+Projectiles: {
+	SanguinusBloodBlob.DisplayName: Sanguinus Blood Blob
+	SanguinusBloodBlobActive.DisplayName: Sanguinus Blood Blob Active
+}
+
+Keybinds.ArmorAbility.DisplayName: Armor Ability

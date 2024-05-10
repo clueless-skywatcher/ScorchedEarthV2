@@ -16,7 +16,7 @@ namespace ScorchedEarthV2.Content.Items.Armor.SanguinusArmor
 
             Item.rare = ItemRarityID.Purple;
 
-            Item.defense = 25;
+            Item.defense = 13;
 
             ArmorIDs.Body.Sets.HidesBottomSkin[Item.bodySlot] = true;
             ArmorIDs.Body.Sets.HidesArms[Item.bodySlot] = true;

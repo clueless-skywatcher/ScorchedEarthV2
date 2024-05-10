@@ -8,6 +8,7 @@
 		
 	</PropertyGroup>
 	<ItemGroup>
+	  <None Remove="Buffs\SanguinusIratusCooldown.png" />
 	  <None Remove="Content\Items\Armor\ArgentArmor\ArgentArmet.png" />
 	  <None Remove="Content\Items\Armor\ArgentArmor\ArgentArmet_Head.png" />
 	  <None Remove="Content\Items\Armor\ArgentArmor\ArgentCuirass.png" />
@@ -23,6 +24,7 @@
 	  <None Remove="Content\Items\Weapons\Hamaxes\JellyHamaxe.png" />
 	  <None Remove="Content\Items\Weapons\Pickaxes\JellyPickaxe.png" />
 	  <None Remove="Content\Items\Weapons\Swords\JellySword.png" />
+	  <None Remove="Content\Projectiles\Minions\SanguinusBloodBlobActive.png" />
 	</ItemGroup>
 
 	<!-- References -->
@@ -31,6 +33,7 @@
 	  <Folder Include="Assets\" />
 	  <Folder Include="Content\Items\Weapons\Axes\" />
 	  <Folder Include="Content\Items\Weapons\Hammers\" />
+	  <Folder Include="Content\Dusts\" />
 	</ItemGroup>
 
 </Project>
