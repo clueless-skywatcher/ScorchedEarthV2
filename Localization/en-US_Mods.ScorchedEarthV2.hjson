@@ -119,7 +119,7 @@ Buffs: {
 
 	SanguinusIratusCooldown: {
 		DisplayName: Sanguinus Iratus Cooldown
-		Description: Mods.ScorchedEarthV2.Buffs.SanguinusIratusCooldown.Description
+		Description: Sanguinus Iratus is recharging
 	}
 }
 
