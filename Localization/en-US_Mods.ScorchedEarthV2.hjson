@@ -109,6 +109,21 @@ Items: {
 		DisplayName: Sanguinus Oculus
 		Tooltip: 10% lifesteal
 	}
+
+	BluedragoonGreaveSabatons: {
+		DisplayName: Bluedragoon Greave Sabatons
+		Tooltip: ""
+	}
+
+	BluedragoonHead: {
+		DisplayName: Bluedragoon Head
+		Tooltip: ""
+	}
+
+	BluedragoonScaleplate: {
+		DisplayName: Bluedragoon Scaleplate
+		Tooltip: ""
+	}
 }
 
 Buffs: {
